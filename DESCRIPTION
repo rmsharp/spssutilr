@@ -1,0 +1,18 @@
+Package: spssutilr
+Type: Package
+Title: Simple Utilities to Augment the rio Package for SPSS Data Files
+Version: 0.1.0
+Date: 2016-03-24
+Author: R. Mark Sharp <msharp@TxBiomed.org>
+Maintainer: R. Mark Sharp <msharp@TxBiomed.org>
+Description: Extracts information out of the list provided by rio::import() into more accessable structures.
+Depends:
+    R (>= 3.1.2)
+Imports:
+    rio
+Suggests:
+    testthat (>= 0.7.1)
+License: GPL-2
+RoxygenNote: 5.0.1
+Encoding: UTF-8
+LazyData: true
